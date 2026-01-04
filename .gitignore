@@ -1,0 +1,52 @@
+# Python
+# Generic ignore file for Python projects
+
+# Byte-compiled / optimized / compressed files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.bin
+
+# Runtime files
+*.stackdump
+*.wptheme
+.coverage
+.tox/
+build/
+dist/
+wheels/
+tmp/
+
+# Virtual environment
+# Ignore the virtual environment directory itself
+# Common names are .venv, venv, env
+.venv/
+venv/
+env/
+# Windows specific
+Scripts/
+# Linux/macOS specific
+bin/
+include/
+lib/
+lib64/
+
+# IDE/Editor-specific files and directories
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+# Eclipse
+.project
+.pydevproject
+
+# Miscellaneous
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+# macOS files
+.DS_Store
+# Thumbnails
+Thumbs.db
+# Environment variables file
+.env
